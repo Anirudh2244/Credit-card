@@ -1,0 +1,118 @@
+//for mobile screen
+@media only screen and (max-width: 576px ) {
+ .text_center_sm{
+    text-align: center;
+    margin-bottom: 15px;
+ }
+ .margin_x_sm{
+   margin: 0 10%;
+ }
+
+ .margin_bottom_sm{
+    margin-bottom: 25px;
+ }
+ .padding_y_sm{
+   padding: 35px 0px;
+ }
+
+.style-carousal1-sm {
+   display: flex;
+}
+.hide_on_sm {
+   display: none;
+}
+
+// not working at all , unable to override some css properties of BS
+.bg_none_sm{
+   background-color: blue!important;
+   font-size: larger;
+}
+
+
+.carousal_sm > img{
+   width: 104%;
+   height: auto;
+}
+
+.carousal_card_sm{
+   justify-content: center;
+}
+.carousal_card_sm > img{
+   justify-self: center;
+   width: 80%;
+   height: auto;
+}
+
+.carousal2{
+   width: 100%;
+   float: left;
+   padding: 25px;
+   margin-bottom: 8px;
+}
+
+
+.bottom_carousal > img{
+   width: 250px;
+   height: auto;
+   margin: 0 auto;
+ }
+
+.img-fluid {
+   width: 104%;
+}
+
+ .circle-around-my {
+   margin-right: 5px;
+   width: 33px;
+   height: 33px;
+ }
+.place-my-show {
+   left: 5px;
+   bottom: 17px;
+}
+.place-my-show > p {
+   font-size: 0.95rem;
+}
+.bg_white_sm {
+   background-color: white;
+}
+
+.bg_purple_sm{
+   background: #7C7EB5;
+}
+.foot_link_sm {
+   margin-left: 10% ;
+}
+
+.slick1-width {
+   width: 100%;
+}
+.card-with-colors {
+   margin-right: 0;
+}
+#card-color {
+   width: auto;
+}
+
+}
+
+// @media only screen and (max-width:){
+   
+// }
+
+
+
+//for PC
+@media only screen and (min-width: 576px ) {
+.show_on_sm {
+   display: none;   
+}
+// .dropdown_sm > select {
+//    border-radius: 1.375rem;
+// }
+// .dropdown_sm > button {
+//    border-radius: 99px;
+//    border: 2px solid white;
+// }
+
+}
